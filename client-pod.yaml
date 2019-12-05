@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: client
-      image: verticalambition/multi-client
+      image: verticalambition/multi-worker
       ports:
         - containerPort: 3000
         
